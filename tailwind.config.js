@@ -17,7 +17,6 @@ module.exports = {
               color: '#A78BFA',
             },
           },
-
         },
       },
       dark: {
@@ -32,7 +31,6 @@ module.exports = {
               color: '#A78BFA',
             },
           },
-
           svg: {
             color: theme('colors.gray.100')
           },

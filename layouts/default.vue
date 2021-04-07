@@ -26,19 +26,24 @@ html.dark body {
   background-color: #1f2937;
 }
 
-.nuxt-content-highlight {
-  display: block;
-  width: 100%;
-  overflow: scroll;
+a {
+  text-decoration: none !important;
 }
-pre {
-  display: block;
-  width: 100%;
-  overflow: scroll !important;
-}
+
 code {
-  display: block;
-  overflow-x: scroll;
-  white-space: pre;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 5px;
+  overflow: scroll;
+
+  /* word-break: break-all; */
+  background-color: theme("colors.gray.200");
+}
+
+html.dark code {
+  text-overflow: scroll;
+  background-color: theme("colors.gray.700");
 }
 </style>
