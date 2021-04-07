@@ -109,4 +109,6 @@ That's everything! Now the project maintainer can review your pull request and i
 
 If you made it here then bravo. 🤘🤘🤘🤘 If you found it fun you should keep up the momentum and hop into another project. It's most fun doing a project on your own to start, then you have complete control over what you want to do and how you want to do it.
 
+If you're curious, I made this website with a static site generator similar to Hugo called [Nuxt.js](https://nuxtjs.org/) which I have recently fallen in love with. The repo for the site is [https://github.com/TheFoolishPupil/tess-hugo](https://github.com/TheFoolishPupil/tess-hugo). If you were thinking of starting your own web project form scratch, I would recommend looking into [vue.js](https://vuejs.org/) which is the framework that Nuxt.js is built upon.
+
 Happy coding! 👩‍💻
