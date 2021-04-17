@@ -55,7 +55,7 @@ export default {
   content: {
     markdown: {
       prism: {
-        theme: false
+        theme: 'prism-themes/nord.css'
       }
     }
   },

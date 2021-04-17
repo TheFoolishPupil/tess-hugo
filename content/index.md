@@ -67,17 +67,17 @@ Great! You should now understand what the command line is and how we can use it,
 
 First tool we are going to install is Homebrew. You can follow the instructions [here](https://brew.sh), or simply open up the Terminal and paste the following, then hit enter:
 
-<markdown-code code='/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"'></markdown-code>
-
-<!-- ```bash
+```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-``` -->
+```
 
 You should now be able to run the command `brew` from the command line and if it says anything other than *...command not found...* it will have installed succesfully.
 
 Next we'll install Git. We can now do this by running `brew install git`. However macOS provides a bunch of command line tools that might come in use later, including Git. These can be installed by running `xcode-select --install`. It might take a while to complete. After installing with one of these two methods you can test the installation just like with Homebrew by running the command `git`, and similarly if it was installed correctly you will see something other than *...command not found...*. We may need to link your Git command line tool with your Github account, this can be accomplished with the following, replacing the example email with the email you used to sign up for Github.
 
-<markdown-code code='git config --global user.email "hello@example.com"'></markdown-code>
+```shell
+git config --global user.email "hello@example.com"
+```
 
 If that went smoothly we can install Hugo. This can be done easily with `git install hugo`. And yet again you can test the installation by running `hugo` from the command line and verifying that you don't see *...command not found...*.
 

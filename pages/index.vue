@@ -1,6 +1,6 @@
 <template lang="pug">
 div
-  NuxtContent.prose.prose-md(:document="page", class="dark:prose-dark")
+  NuxtContent.prose.prose-md.mx-auto(:document="page", class="dark:prose-dark")
 </template>
 
 <script>

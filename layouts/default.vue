@@ -1,13 +1,17 @@
 <template lang="pug">
 div
   Navbar
-  .flex.min-h-screen.justify-center.pt-0.pb-20(
-    class="md:pt-20 md:pb-0 dark:bg-gray-800"
-  )
+  .min-h-screen.justify-center.pt-0.pb-20(class="md:pt-20 md:pb-0 dark:bg-gray-800")
     Nuxt.p-4
 </template>
 
 <style>
+@font-face {
+  font-family: "Iosevka";
+  src: local("Iosevka"),
+    url(~assets/isoveka/iosevka-regular.ttf) format("truetype");
+}
+
 html {
   font-family: "Inter", sans-serif;
   scroll-behavior: smooth;
@@ -28,22 +32,5 @@ html.dark body {
 
 a {
   text-decoration: none !important;
-}
-
-code {
-  padding-left: 4px;
-  padding-right: 4px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  border-radius: 5px;
-  overflow: scroll;
-
-  /* word-break: break-all; */
-  background-color: theme("colors.gray.200");
-}
-
-html.dark code {
-  text-overflow: scroll;
-  background-color: theme("colors.gray.700");
 }
 </style>
